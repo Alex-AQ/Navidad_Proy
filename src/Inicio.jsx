@@ -24,10 +24,10 @@ function Inicio() {
         </p>
 
         <div className="d-flex justify-content-center gap-4">
-          <a href="/historia" className="btn btn-danger btn-lg">
+          <a href="/Historia" className="btn btn-danger btn-lg">
             Ver Historia
           </a>
-          <a href="/galeria" className="btn btn-warning btn-lg">
+          <a href="/Galeria" className="btn btn-warning btn-lg">
             Ver Galería
           </a>
         </div>
