@@ -1,6 +1,8 @@
-function Nav() {
-    return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-success shadow">
+import { Link } from "react-router-dom";
+
+function Navbar() {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark bg-success shadow">
       <div className="container-fluid px-5">
         <Link className="navbar-brand fw-bold fs-4" to="/">
           🎄 Navidad 2025
@@ -35,6 +37,7 @@ function Nav() {
         </div>
       </div>
     </nav>
-    );
+  );
 }
-export default Nav;
+
+export default Navbar;
